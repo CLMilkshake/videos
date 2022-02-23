@@ -86,6 +86,7 @@ body {
     text-decoration: none;
 }
 #Featured-Videos {
+    display: flex;
     flex-direction: column;
 }
 .featuredvideo video {
