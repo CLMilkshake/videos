@@ -55,9 +55,7 @@ body {
     color: blue;
     text-decoration: none;
 }
-#nav {
 
-}
 .recent {
     width: 100px;
     height: 10px;
@@ -83,7 +81,14 @@ body {
     color: blue;
 }
 
-..recent button a:visited{
+.recent button a:visited{
     color: blue;
     text-decoration: none;
+}
+#Featured-Videos {
+    flex-direction: column;
+}
+.featuredvideo video {
+    width: 500px;
+    height: 300px;
 }
